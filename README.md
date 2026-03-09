@@ -53,7 +53,7 @@ Cette commande permet d'afficher la table de routage de la machine.
 Elle indique par où les paquets doivent passer pour atteindre le réseau.
 
 ### Exemple de résultat 
-1*
+[Résultat de la commande ip route](images/ip_route.png)
 
 default via 192.168.1.254 dev enp0s3
 192.168.1.0/24 dev enp0s3 src 192.168.1.199
@@ -99,6 +99,7 @@ Le protocole utilisé est le protocole ICMP (Internet Control Message Protocol)
 ## Test de résolution DNS 
 
 ### Commande utilisée : 
+[Résulat de la commande ping google.com](images/ping_google.com)
 
 ```bash
 ping google.com
