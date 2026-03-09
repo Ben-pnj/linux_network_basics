@@ -29,6 +29,7 @@ Elle permet notamment d'observer :
 - l'état de l'interface réseau
 
 ## Exemple de résultat 
+[Résultat de la commande ip a](images/ip_a.png)
 
 La commande affiche deux interfaces principales : 
 
@@ -51,7 +52,9 @@ ip route
 Cette commande permet d'afficher la table de routage de la machine.
 Elle indique par où les paquets doivent passer pour atteindre le réseau.
 
-Exemple de résultat : 
+### Exemple de résultat 
+1*
+
 default via 192.168.1.254 dev enp0s3
 192.168.1.0/24 dev enp0s3 src 192.168.1.199
 
@@ -83,6 +86,7 @@ Google
 ## Test de connectivité
 
 ### Commande utilisée : 
+[Résultat de la commande ping 8.8.8.8](iamges/test_ping)
 
 ```bash
 ping 8.8.8.8
@@ -126,6 +130,7 @@ sudo resolvectl dns enp0s3 8.8.8.8
 ## Analyse des ports ouverts 
 
 ### Commande utilisée : 
+[Résultat de la commande ss_tuln](images/ss_tiln.png)
 
 ```bash
 ss -tuln
