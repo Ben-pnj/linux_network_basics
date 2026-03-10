@@ -1,4 +1,4 @@
-# linux_network_basics
+# Linux_Network_Basics
 
 Lab sur les bases du réseau réalisé sur une VM Linux Mint.
 
